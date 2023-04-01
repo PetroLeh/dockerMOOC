@@ -76,3 +76,8 @@ message: `"This is the secret message"`
 build command: `docker build . -t web-server`
 
 run command: `docker run web-server`
+
+### exercise 1.9
+
+command used: `touch text.log && docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service`
+
