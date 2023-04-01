@@ -64,3 +64,7 @@ and installed curl with `apt-get`
 
 input: `basics`
 message: `"This is the secret message"`
+
+### exercise 1.7
+
+[Dockerfile](./Dockerfile)
