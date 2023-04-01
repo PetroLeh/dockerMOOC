@@ -67,4 +67,12 @@ message: `"This is the secret message"`
 
 ### exercise 1.7
 
-[Dockerfile](./Dockerfile)
+[Dockerfile](ex1_7/Dockerfile)
+
+### exercise 1.8
+
+[Dockerfile](ex1_8/Dockerfile)
+
+build command: `docker build . -t web-server`
+
+run command: `docker run web-server`
