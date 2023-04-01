@@ -59,3 +59,8 @@ After the first try from another terminal:
 `docker exec -it exercise bash`
 
 and installed curl with `apt-get`
+
+### exercise 1.6
+
+input: `basics`
+message: `"This is the secret message"`
