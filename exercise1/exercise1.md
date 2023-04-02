@@ -85,7 +85,23 @@ command used: `touch text.log && docker run -v "$(pwd)/text.log:/usr/src/app/tex
 
 command used: `docker run -p 127.0.0.1:8000:8080 devopsdockeruh/simple-web-service server`
 
-### exercise 1.11-1.14
+### exercise 1.11
 
 [Dockerfile](ex1_11/Dockerfile)
+
+### exercise 1.12
+
+[Dockerfile](ex1_12/Dockerfile)
+
+### exercise 1.13
+
+[Dockerfile](ex1_13/Dockerfile)
+
+run: `docker build . -t back && docker run -p 8080:8080 back`
+
+### exercise 1.14
+
+`Dockerfile` from exercise 1.12 and 1.13 modified to meet the requirements
+                                                                                                             
+
 
