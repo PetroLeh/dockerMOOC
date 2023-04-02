@@ -81,6 +81,11 @@ run command: `docker run web-server`
 
 command used: `touch text.log && docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service`
 
-### exercie 1.10
+### exercise 1.10
 
 command used: `docker run -p 127.0.0.1:8000:8080 devopsdockeruh/simple-web-service server`
+
+### exercise 1.11-1.14
+
+[Dockerfile](ex1_11/Dockerfile)
+
