@@ -1,0 +1,16 @@
+version: ´3.8´
+
+services:
+  backend:
+    image: back
+    ports:
+    - 8080:8080
+    environment:
+    - REQUEST_ORIGIN=http://localhost:5000
+
+
+  frontend:
+    image: front
+    ports:
+    - 5000:5000
+
